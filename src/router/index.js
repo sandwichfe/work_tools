@@ -11,6 +11,14 @@ const routes = [
   path: '/gene-sql',
   name: 'GeneSql',
   component: () => import('@/views/GeneSql.vue')
+},
+{
+  path: '/sql-format',
+  name: 'SqlFormat',
+  component: () => import('../views/SqlFormat.vue'),
+  meta: {
+    title: 'SQL格式化工具'
+  }
 }
 ]
 
